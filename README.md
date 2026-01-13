@@ -53,6 +53,7 @@ after that we can see the chnges made in vs code in github as well
 // to move out of a directory use "cd .. "
 <br>
 //NOW MORE DETAILS---- <br>
+<br>
 Init COMMAND = used to create a new git repo/folder
 either make manually  or frist move out of current folder and then type " mkdir nameofrepo " in terminal means ===> make new directory
 <br>
@@ -91,7 +92,7 @@ sttyle.css
  different portion of project on which different teams are working
 <br>
  BRANCH COMMANDS!!!
- <br>
+ <br><br>
  1.git branch (to chcek the branch,on which we are)
  <br>
 2.git branch -M main (to rename the branch name) , here  main is the name of branch
