@@ -44,39 +44,60 @@ OR simply use "git add. " to ad or save all changes
 //////NOW COMMIT//////
 eg:: git commit -m "some meaningfull msg"
 ./// now all thses changes are in local system that is our pc or laptop  ,,they r not saved or added in gitHub...
+<br>
 For that we use PUSH COMMAND =upload local repo content to remote repo
 syntax:: git push origin main
-after that we can see the chnges made in vs code in github as well
+<br>
+after that we can see the chnges made in vs code in github as well 
+<br>
 // to move out of a directory use "cd .. "
-//NOW MORE DETAILS----
+<br>
+//NOW MORE DETAILS---- <br>
 Init COMMAND = used to create a new git repo/folder
-either make manually  or frist move out of current folder and then type " mkdir name of repo "in terminal means ===> make new directory
+either make manually  or frist move out of current folder and then type " mkdir nameofrepo " in terminal means ===> make new directory
+<br>
 eg= mkdirnlocalRepo 
+<br>
 so a new folder by name localRepo is made..
+<br>
 now this repository is just on local system..this is not a git repository 
 so make it a git repo...do "git inint" -->now this is git repo and now can makw chnges in it
-..
+..<br>
 so make file in it now  (for eg)
+<br>
 index1.html &
 sttyle.css
-///now these files willl apper as untracked(U) ... so add them first (using git .), then commit ,then push
+<br>
+///now these files will apper as untracked(U) ... so add them first (using git .), then commit ,then push
+<br>
 //now these changes are in local system...to mak them on github..make a new repo on github first
+<br>
 #After that use a command  " git remote add origin <-link-> " matlab jo nayi repo hum add kr rhe hn ab use origin kahenge..
+<br>
 #Ab ky set hua h , check it with "git remote -v" and this shows the name of localRepo repository
+<br>
  #Another COMMAND -- git branch (to check branch) branch is basically a copy of a project on which a team has to work... default branch is "master"...
+ <br>
  Now we will rename this master branch to main branch or make a new branch by name main (why? : bcoz hr jagah main use hua h ) syntax: "git branch -M main
+ <br>
  --NOW we can push -- push krne s vo github pr bhi chnges show kr dega 
-
+<br>
 
  //noww
  lets see WORKFLOW--->github repo--> clone--->made changes-->add them-->commit them-->push them to github.
-
+<br>
  //GIT BRANCHES
+ <br>
  different portion of project on which different teams are working
-
+<br>
  BRANCH COMMANDS!!!
+ <br>
  1.git branch (to chcek the branch,on which we are)
+ <br>
 2.git branch -M main (to rename the branch name) , here  main is the name of branch
+<br>
 3.git checkout -b <-new branch name-> (to create new branch)
+<br>
 4.git checkout <-branch name->  (to move from one branch to another )
+<br>
 5.git branch -d <-branch name-> (to delete the branch).
