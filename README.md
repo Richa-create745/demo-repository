@@ -30,3 +30,22 @@ eg:: git commit -m "some meaningfull msg"
 For that we use PUSH COMMAND =upload local repo content to remote repo
 syntax:: git push origin main
 after that we can see the chnges made in vs code in github as well
+// to move out of a directory use "cd .. "
+//NOW MORE DETAILS----
+Init COMMAND = used to create a new git repo/folder
+either make manually  or frist move out of current folder and then type " mkdir name of repo "in terminal means ===> make new directory
+eg= mkdirnlocalRepo 
+so a new folder by name localRepo is made..
+now this repository is just on local system..this is not a git repository 
+so make it a git repo...do "git inint" -->now this is git repo and now can makw chnges in it
+..
+so make file in it now  (for eg)
+index1.html &
+sttyle.css
+///now these files willl apper as untracked(U) ... so add them first (using git .), then commit ,then push
+//now these changes are in local system...to mak them on github..make a new repo on github first
+#After that use a command  " git remote add origin <-link-> " matlab jo nayi repo hum add kr rhe hn ab use origin kahenge..
+#Ab ky set hua h , check it with "git remote -v" and this shows the name of localRepo repository
+ #Another COMMAND -- git branch (to check branch) branch is basically a copy of a project on which a team has to work... default branch is "master"...
+ Now we will rename this master branch to main branch or make a new branch by name main (why? : bcoz hr jagah main use hua h ) syntax: "git branch -M main
+ --NOW we can push -- push krne s vo github pr bhi chnges show kr dega
