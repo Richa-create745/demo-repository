@@ -1,5 +1,5 @@
 # demo-repository
-this is a demo repo.
+This is a demo repo, Created for learning Git version control and command-line workflows”
 <br>
 Author- Richa Sharma
 now making chnges..from here..
