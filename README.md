@@ -2,9 +2,11 @@
 This is a demo repo, Created for learning Git version control and command-line workflows”
 <br>
 Author- Richa Sharma
+<br> Lets Learn Git and Git commands 
+<br>
 now making chnges..from here..
 <br>
-Authorsname - suraj 
+
 So the vs code will show file as yellow colors bcoz some chnges has been fone but not saved right now...and a symbol of M has been shown..means modified..
 <br>
 OR ...we can even create new file in git-demo folder i.e., index.html ....so this file will be shown as untracked file when we do *git status*
